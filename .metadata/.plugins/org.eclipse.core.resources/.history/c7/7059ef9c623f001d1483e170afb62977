@@ -1,0 +1,9 @@
+package com.pbburnham3.zookeeper;
+
+public class Gorilla extends Mammal{
+	
+	public Gorilla() {
+		super();
+	}
+
+}

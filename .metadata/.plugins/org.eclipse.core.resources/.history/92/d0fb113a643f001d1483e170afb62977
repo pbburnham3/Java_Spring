@@ -1,0 +1,10 @@
+package com.pbburnham3.zookeeper;
+
+public class Bat extends Mammal{
+	
+	public Bat() {
+		super();
+		this.energyLevel = 300;
+	}
+
+}

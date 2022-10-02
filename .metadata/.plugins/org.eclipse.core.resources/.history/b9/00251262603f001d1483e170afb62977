@@ -1,0 +1,13 @@
+package com.pbburnham3.zookeeper;
+
+class Mammal{
+    private int energyLevel;
+    
+    public int displayEnergy() {
+    	System.out.println("My energy level is: " + energyLevel);
+    	return energyLevel;
+    }
+    
+}
+
+
