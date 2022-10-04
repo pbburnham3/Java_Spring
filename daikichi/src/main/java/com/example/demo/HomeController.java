@@ -16,7 +16,7 @@ public class HomeController {
 	
 	@RequestMapping("/today")
 	public String today() {
-		return "Fur Hao";
+		return "Good fortune";
 	}
 	
 	@RequestMapping("/tomorrow")
