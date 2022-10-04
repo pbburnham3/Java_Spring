@@ -8,7 +8,11 @@ public class Physician extends User implements HIPAACompliantUser {
     private ArrayList<String> patientNotes;
 	
     // TO DO: Constructor that takes an ID
+    public Physician() {
+    	super();
+    }
     // TO DO: Implement HIPAACompliantUser!
+    public static void main()
 	
     public void newPatientNotes(String notes, String patientName, Date date) {
         String report = String.format(
