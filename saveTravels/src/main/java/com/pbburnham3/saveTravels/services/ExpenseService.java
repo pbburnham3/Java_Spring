@@ -1,6 +1,7 @@
 package com.pbburnham3.saveTravels.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
@@ -16,14 +17,37 @@ public class ExpenseService {
 	    this.expenseRepository = expenseRepository;
 	}
 	
-	// returns all the books
+	// returns all expenses
 	public List<Expense> allExpenses() {
 	    return expenseRepository.findAll();
 	}
 	
-	// creates a book
+	// creates an expense
 	public Expense createExpense(Expense b) {
 	    return expenseRepository.save(b);
+	}
+	
+	
+	// retrieves a book
+	public Expense findExpense(Long id) {
+		Optional<Expense> optionalExpense = expenseRepository.findById(id);
+		if(optionalExpense.isPresent()) {
+		    return optionalExpense.get();
+		} else {
+		    return null;
+		}
+	}
+	
+	// updates an expense
+	public Expense updateExpense(Expense expense) {
+		
+		return expenseRepository.save(expense);
+	}
+	
+	// deletes an expense
+	public Expense deleteExpense(Long id) {
+		expenseRepository.deleteById(id);
+		return null;
 	}
 
 }
