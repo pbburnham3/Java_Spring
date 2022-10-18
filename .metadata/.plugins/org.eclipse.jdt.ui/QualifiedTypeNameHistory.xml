@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="antlr.collections.List"/>
     <fullyQualifiedTypeName name="com.pbburnham3.mvc.models.Book"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="com.pbburnham3.bookClub.models.User"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="javax.validation.constraints.NotEmpty"/>
+    <fullyQualifiedTypeName name="com.pbburnham3.bookClub.models.Book"/>
     <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
